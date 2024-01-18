@@ -1,0 +1,94 @@
+.schedule {
+  overflow: hidden;
+  margin: 80px;
+  background-color: $white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+}
+.schedule__title {
+  width: 60%;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  margin-bottom: 150px;
+}
+
+.schedule_green {
+  position: absolute;
+  color: $green;
+  font-family: "LainyDay";
+  text-transform: none;
+  font-size: 150px;
+  right: 0;
+}
+.schedule__content {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.schedule__content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 2px solid $black;
+  padding: 20px;
+  text-align: right;
+}
+.schedule__content-right {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+
+.schedule__animation {
+  margin: 150px 20px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+.animation__img-one {
+}
+.animation__img-two {
+}
+
+.animation__img-three {
+}
+.content__left-block {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block__time {
+  font-size: 90px;
+}
+.block__description {
+  text-align: left;
+  margin-left: 40px;
+}
+.description__title {
+  font-size: 60px;
+  font-family: "LainyDay";
+  border-bottom: 1px dashed $black;
+  margin-bottom: 10px;
+}
+.description__subTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-size: 24px;
+}
+
+.right {
+  margin-left: 0;
+  margin-right: 20px;
+}

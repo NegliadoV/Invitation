@@ -1,0 +1,30 @@
+.dresscode {
+  margin: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+.dresscode__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dresscode__title {
+  font-size: 82px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  font-family: "LainyDay";
+}
+.dresscode__text {
+  font-size: 26px;
+  text-indent: 40px;
+}
+.dresscode__color {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}

@@ -1,0 +1,622 @@
+@media (max-width: 1200px) {
+  .item__number {
+    font-size: 60px;
+  }
+
+  .greeting__big-text {
+    font-size: 100px;
+  }
+  .calendar__number {
+    font-size: 100px;
+  }
+
+  .greeting__title {
+    font-size: 40px;
+  }
+
+  .greeting__text-block {
+    width: 20%;
+  }
+
+  .dresscode__color {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+
+  .hero {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .greeting__subtitle {
+    font-size: 25px;
+  }
+
+  .greeting__description {
+    font-size: 20px;
+  }
+  .greeting__right {
+    width: 45%;
+  }
+
+  .greeting__title {
+    font-size: 30px;
+  }
+
+  .greeting__big-text {
+    font-size: 80px;
+    line-height: 0;
+  }
+
+  .calendar__box {
+    padding: 20px;
+  }
+
+  .item__number {
+    font-size: 50px;
+  }
+
+  .active {
+    background-size: 15px;
+  }
+
+  .calendar__number:nth-child(2n) {
+    margin-bottom: 10px;
+  }
+
+  .countdown__timer-number {
+    font-size: 50px;
+  }
+
+  .countdown__timer-name {
+    font-size: 50px;
+  }
+
+  .address__content {
+    width: 50%;
+  }
+
+  .address__address {
+    font-size: 20px;
+  }
+
+  .address__sub {
+    font-size: 20px;
+  }
+
+  .schedule__title {
+    width: 100%;
+  }
+
+  .schedule_green {
+    font-size: 130px;
+  }
+
+  .description__subTitle {
+    font-size: 24px;
+  }
+
+  .description__text {
+    font-size: 18px;
+  }
+
+  .heart__img-one {
+    width: 140px;
+    height: 140px;
+  }
+
+  .heart__img-two {
+    width: 120px;
+    height: 120px;
+  }
+
+  .description__title {
+    font-size: 40px;
+  }
+
+  .block__time {
+    font-size: 60px;
+  }
+
+  .content__left-block {
+    margin: 0;
+  }
+
+  .rings__img-two {
+    width: 100px;
+  }
+
+  .rings__img-one {
+    width: 100px;
+  }
+
+  .sweet__img-tree {
+    width: 200px;
+    transform: translateY(-48px);
+  }
+
+  .sweet__img-two {
+    width: 160px;
+  }
+
+  .sweet__img-one {
+    width: 110px;
+  }
+
+  .sweet__animation {
+    transform: translateX(35px);
+  }
+
+  .banner__text {
+    font-size: 66px;
+  }
+
+  .banner__text-inherit {
+    font-size: 100px;
+    top: 40px;
+  }
+  .wishes__title {
+    font-size: 60px;
+  }
+  .wishes__text {
+    left: 40%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 760px) {
+  .guests__container {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .greeting__img {
+    width: 70%;
+    height: 80%;
+  }
+
+  .greeting__text {
+    font-size: 54px;
+  }
+
+  .greeting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .display__bottom {
+    display: none;
+  }
+
+  .display__top {
+    display: block;
+  }
+
+  .greeting__title-block {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+  }
+  .greeting__big-text {
+    line-height: 0;
+    width: 15%;
+  }
+  .greeting__title {
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .greeting__right {
+    justify-content: center;
+  }
+
+  .greeting__description {
+    &:last-child {
+      margin-bottom: 250px;
+    }
+  }
+
+  .calendar {
+    justify-content: space-around;
+  }
+
+  .calendar__right {
+    display: none;
+  }
+
+  .calendar__box-title {
+    margin-top: 20px;
+  }
+  .calendar__title {
+    font-size: 40px;
+  }
+  .item__number {
+    font-size: 32px;
+  }
+
+  .calendar__subtitle {
+    font-size: 80px;
+  }
+
+  .countdown {
+    padding: 25px 0;
+  }
+
+  .calendar__center {
+    align-items: center;
+  }
+
+  .block__time {
+    font-size: 40px;
+  }
+
+  .description__subTitle {
+    font-size: 22px;
+  }
+
+  .description__title {
+    font-size: 30px;
+  }
+
+  .sweet__img-two {
+    width: 110px;
+  }
+
+  .sweet__img-one {
+    width: 70px;
+  }
+
+  .sweet__img-tree {
+    width: 150px;
+    transform: translateY(-36px);
+  }
+
+  .sweet__animation {
+    transform: translateX(40px);
+  }
+
+  .home__img-two {
+    width: 50%;
+  }
+
+  .home__img-one {
+    left: 102px;
+  }
+
+  .banner__text-inherit {
+    font-size: 74px;
+  }
+
+  .banner__text {
+    font-size: 56px;
+  }
+
+  .dresscode__title {
+    font-size: 56px;
+  }
+
+  .dresscode__text {
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .dresscode__color {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .color {
+    width: 70px;
+    height: 70px;
+  }
+
+  .dresscode {
+    margin: 10px;
+  }
+
+  .wishes__title {
+    font-size: 34px;
+  }
+
+  .span {
+    font-size: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__img {
+    min-height: 120vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .greeting__position {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .greeting__left {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .greeting__img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    height: 300px;
+  }
+
+  .greeting__title {
+    width: 80%;
+  }
+
+  .greeting__title-block {
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .greeting__right {
+    width: 80%;
+  }
+
+  .greeting__text {
+    writing-mode: unset;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .greeting__text-block {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .greeting__description {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .calendar {
+    margin: 0;
+
+    overflow: hidden;
+  }
+
+  .calendar__number {
+    font-size: 40px;
+    line-height: 30px;
+  }
+
+  .calendar__line.bottom {
+    height: 300px;
+  }
+
+  .calendar__box {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .calendar__box-item {
+    padding: 0;
+    gap: 10px;
+  }
+
+  .address__text {
+    font-size: 60px;
+  }
+
+  .address {
+    justify-content: center;
+  }
+
+  .address__address {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .address__sub {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .address__content {
+    margin-top: 120px;
+    width: 100%;
+  }
+
+  .countdown__timer-number {
+    font-size: 30px;
+  }
+
+  .countdown__timer-name {
+    font-size: 30px;
+  }
+
+  .schedule {
+    margin: 60px 0;
+  }
+
+  .schedule__title {
+    font-size: 40px;
+  }
+
+  .schedule_green {
+    font-size: 90px;
+  }
+
+  .schedule__content-left {
+    border: none;
+    padding: 0;
+  }
+
+  .right {
+    margin: 0;
+  }
+
+  .schedule__content-left {
+    align-items: baseline;
+  }
+
+  .schedule__content-right {
+    padding: 0;
+  }
+
+  .heart__img-one {
+    width: 90px;
+    height: 90px;
+  }
+
+  .heart__img-two {
+    width: 90px;
+    height: 90px;
+  }
+
+  .rings__img-two {
+    width: 90px;
+    height: 90px;
+  }
+
+  .rings__img-one {
+    width: 90px;
+    height: 90px;
+  }
+
+  .glass__img-one {
+    width: 90px;
+    height: 90px;
+  }
+
+  .glass__img-two {
+    width: 90px;
+    height: 90px;
+
+    transform: translateX(-1000px);
+    transform: translateY(0px);
+    rotate: -30deg;
+  }
+
+  .description__subTitle {
+    font-size: 18px;
+  }
+
+  .content__left-block {
+    justify-content: center;
+  }
+
+  .block__time {
+    font-size: 26px;
+  }
+
+  .block__description {
+    margin-left: 10px;
+    width: 50%;
+    text-align: inherit;
+  }
+
+  .description__text {
+    font-size: 16px;
+  }
+
+  .sweet__img-two {
+    width: 100px;
+  }
+  .sweet__img-one {
+    width: 65px;
+    transform: translateY(10px);
+  }
+  .sweet__img-tree {
+    width: 130px;
+    transform: translateY(-30px);
+  }
+
+  .banner__text {
+    font-size: 40px;
+
+    margin: 200px 40px;
+  }
+
+  .banner__text-inherit {
+    left: 150px;
+  }
+
+  .form_title {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .guests_name_title {
+    font-size: 20px;
+  }
+
+  .form__input {
+    &::placeholder {
+      font-size: 14px;
+    }
+  }
+
+  .home__img-two {
+    margin-left: 30px;
+  }
+  .guests_presence_title {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .guests_preference_title {
+    font-size: 16px;
+  }
+
+  .span {
+    margin-left: 100px;
+  }
+
+  .wishes__text {
+    font-size: 18px;
+
+    left: 10px;
+    width: 90%;
+    top: 60%;
+  }
+
+  .wishes {
+    height: 1000px;
+  }
+
+  .btn {
+    width: 200px;
+  }
+
+  .message__container {
+    width: 60%;
+    height: 200px;
+  }
+
+  .form {
+    padding: 35px;
+  }
+}

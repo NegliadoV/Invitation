@@ -1,0 +1,54 @@
+@import "./vars";
+@import "./reset";
+@import "./mixins";
+@import "aos/dist/aos.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  z-index: 1000;
+  background-color: $beige;
+
+  font-family: "Cormorant", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "YL";
+  src: url(./fonts/YL.ttf);
+}
+
+@font-face {
+  font-family: "Lastochka";
+  src: url(./fonts/Lastochka.ttf);
+}
+
+@font-face {
+  font-family: "LainyDay";
+  src: url(./fonts/LainyDay.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(./fonts/Cormorant-VariableFont_wght.ttf);
+}
+
+@import "./block/container.scss";
+@import "./block/form.scss";
+@import "./block/header.scss";
+@import "./block/nav.scss";
+@import "./block/hero.scss";
+@import "./block/greeting.scss";
+@import "./block/calendar.scss";
+@import "./block/countdown.scss";
+@import "./block/address.scss";
+@import "./block/schedule.scss";
+@import "./block/banner.scss";
+@import "./block/UI.scss";
+@import "./block/dresscode.scss";
+@import "./block/wishes.scss";
+@import "./block/animations.scss";
+@import "./block/guests.scss";
+@import "./media.scss";

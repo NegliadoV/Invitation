@@ -1,0 +1,68 @@
+.countdown {
+  position: relative;
+  z-index: 0;
+  margin: 60px 0;
+  padding: 60px;
+  background-image: url("../../../public/1.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: linear-gradient(
+      180deg,
+      rgba(47, 50, 45, 0) 0%,
+      rgba(47, 50, 45, 0.42) 42.71%,
+      rgba(47, 50, 45, 0.76) 100%
+    );
+  }
+}
+
+.countdown__timer {
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.countdown__timer-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    border: 1px solid $gray-light;
+    height: 100%;
+  }
+
+  &:last-child {
+    &::after {
+      border: none;
+    }
+  }
+}
+
+.countdown__timer-number {
+  font-size: 100px;
+  color: $white;
+  animation: ani 0.5s linear;
+}
+.countdown__timer-name {
+  text-transform: capitalize;
+  font-size: 80px;
+  margin-top: 20px;
+  color: $gray-light;
+  animation: ani 0.5s linear;
+  font-family: "LainyDay";
+}

@@ -1,0 +1,77 @@
+.guests {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  padding: 20px;
+}
+
+.guests__title {
+  @include title;
+  font-family: "Cormorant";
+  margin-top: 50px;
+  font-size: 36px;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.guests__container {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  margin-top: 20px;
+  border: 1px solid $black;
+  padding: 20px;
+  box-shadow: #000000b7 0px 0px 10px;
+  margin-bottom: 50px;
+}
+
+.guests__id {
+  font-size: 24px;
+
+  margin-bottom: 10px;
+}
+
+.guests__info {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.guests__btn {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  background-color: transparent;
+  background-image: url(/public/close.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  transition: all 0.3s linear;
+  padding: 20px;
+
+  &:hover {
+    transform: rotate(90deg);
+    border: 2px solid $black;
+    border-radius: 100%;
+    background-color: $white;
+    box-shadow: $black 0px 0px 10px;
+  }
+}
