@@ -32,7 +32,7 @@ defineProps({
       <div class="hero__caption">
         <h1>{{ text }}</h1>
       </div>
-      <div ref="background" class="hero__animation">
+      <!-- <div ref="background" class="hero__animation">
         <div
           class="animation__bg"
           :style="
@@ -46,7 +46,7 @@ defineProps({
           "
           v-show="scroll <= 700"
         ></div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

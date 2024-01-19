@@ -66,7 +66,6 @@ watch(scroll, () => {});
   </header>
   <Hero :text="'Она сказала да!'" :imgUrl="'/1.jpg'" />
   <Greeting />
-  {{ scroll }}
   <Calendar />
   <CountDown />
   <Address />

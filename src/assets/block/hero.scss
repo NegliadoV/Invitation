@@ -56,8 +56,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: change 40s infinite ease-in-out;
-  transition: all 0.3s ease-in;
+  animation: change 15s ease alternate-reverse infinite;
+
   @keyframes change {
     0% {
       background-image: url(/public/One.jpg);
@@ -68,14 +68,8 @@
     40% {
       background-image: url(/public/three.jpg);
     }
-    60% {
-      background-image: url(/public/four.jpg);
-    }
     80% {
-      background-image: url(/public/five.jpg);
-    }
-    100% {
-      background-image: url(/public/2.jpg);
+      background-image: url(/public/four.jpg);
     }
   }
 }

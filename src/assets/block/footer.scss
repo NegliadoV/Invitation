@@ -1,0 +1,15 @@
+.footer {
+  padding: 5px 30px;
+  background-color: $gray-light;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  color: $black;
+  font-weight: bold;
+}
+.footer__copyright {
+  color: $black;
+}

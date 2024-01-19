@@ -16,23 +16,23 @@ body {
 
 @font-face {
   font-family: "YL";
-  src: url(./fonts/YL.ttf);
+  src: url("./fonts/YL.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Lastochka";
-  src: url(./fonts/Lastochka.ttf);
+  src: url("./fonts/Lastochka.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "LainyDay";
-  src: url(./fonts/LainyDay.otf);
+  src: url("./fonts/LainyDay.otf") format("opentype");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Cormorant";
-  src: url(./fonts/Cormorant-VariableFont_wght.ttf);
+  src: url("./fonts/Cormorant-VariableFont_wght.ttf") format("truetype");
 }
 
 @import "./block/container.scss";
@@ -52,3 +52,4 @@ body {
 @import "./block/animations.scss";
 @import "./block/guests.scss";
 @import "./media.scss";
+@import "./block/footer.scss";
