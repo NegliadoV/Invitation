@@ -58,7 +58,7 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
         />
         <GlassAnimation
           :imgUrlOne="'/glass.svg'"
-          :imgUrlTree="'/public/dzin.svg'"
+          :imgUrlTree="'/dzin.svg'"
           :imgUrlTwo="'/glass.svg'"
         />
         <ScheduleDescriptionRight
