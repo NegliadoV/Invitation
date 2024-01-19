@@ -192,6 +192,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
   .display__bottom {
     display: none;
@@ -346,6 +347,9 @@
   h1 {
     font-size: 2rem;
   }
+  .greeting {
+    padding: 90px 0 100px 0;
+  }
 
   .greeting__position {
     flex-direction: column;
@@ -375,7 +379,7 @@
   }
 
   .greeting__title-block {
-    margin: 0 20px;
+    margin: 0;
     text-align: center;
   }
 
