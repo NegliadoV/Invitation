@@ -26,7 +26,10 @@ body {
 
 @font-face {
   font-family: "LainyDay";
-  src: url("./fonts/MADE_TheArtist_Script.ttf") format("opentype");
+  src: url("./fonts/MADE_TheArtist_Script.ttf") format("truetype");
+  src: url("./fonts/a62b067e220d2205f7b770e3a936976b.ttf") format("truetype");
+  src: url("./fonts/a62b067e220d2205f7b770e3a936976b.woff") format("woff");
+  src: url("./fonts/a62b067e220d2205f7b770e3a936976b.svg") format("svg");
   font-style: italic;
 }
 
