@@ -316,14 +316,13 @@
   }
 
   .dresscode__color {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: space-around;
   }
 
   .color {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .dresscode {
@@ -341,7 +340,10 @@
 
 @media (max-width: 480px) {
   .hero__img {
-    min-height: 120vh;
+    min-height: 0vh;
+    background-attachment: fixed;
+    background-size: 190% 100%;
+    background-position: top center;
   }
 
   h1 {
@@ -568,6 +570,12 @@
     left: 150px;
   }
 
+  .banner {
+    background-attachment: fixed;
+    background-position: center;
+    padding-right: 20px;
+  }
+
   .form_title {
     font-size: 20px;
     width: 100%;
@@ -608,19 +616,33 @@
   }
 
   .wishes {
-    height: 1000px;
+    height: 550px;
+    background-size: 100% 100%;
   }
 
   .btn {
     width: 200px;
+    padding: auto;
   }
 
   .message__container {
     width: 60%;
     height: 200px;
   }
-
+  .wishes__title {
+    top: 100px;
+  }
+  .wishes__text {
+    top: 60%;
+  }
   .form {
     padding: 35px;
+  }
+  .form_title {
+    margin-top: 0;
+  }
+
+  .countdown {
+    background-position: center;
   }
 }
