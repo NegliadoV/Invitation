@@ -15,8 +15,8 @@
   justify-content: center;
 }
 .greeting__img {
-  width: 100%;
-  height: 100%;
+  max-width: 450px;
+  max-height: 700px;
 }
 
 .greeting__text-block {

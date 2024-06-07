@@ -15,32 +15,22 @@ import Color from "./UI/Color.vue";
     </div>
     <div class="dresscode__color">
       <Color
-        style="background-color: #cad6d2"
+        style="background-color: rgb(145 159 132)"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
       />
       <Color
-        style="background-color: #e1adb2"
+        style="background-color: rgb(233 198 192)"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
       />
       <Color
-        style="background-color: #f9ddda"
+        style="background-color: rgb(244 231 215)"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
       />
       <Color
-        style="background-color: #d6e4e7"
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-      />
-      <Color
-        style="background-color: #d7cdc1"
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-      />
-      <Color
-        style="background-color: #fff"
+        style="background-color: rgb(255 255 255)"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
       />

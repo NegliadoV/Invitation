@@ -18,9 +18,9 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
     <div class="schedule__content">
       <div class="schedule__content-left">
         <ScheduleDescriptionLeft
-          :time="'11:20'"
+          :time="'15:30'"
           :title="'We meet'"
-          :subTitle="'Сбор гостей возле ЗАГСа'"
+          :subTitle="'Сбор гостей'"
           :text="'Просьба взять с собой улыбки и хорошее настроение'"
         />
         <RingsAnimation
@@ -28,7 +28,7 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
           :imgUrlTwo="'/ring_two.svg'"
         />
         <ScheduleDescriptionLeft
-          :time="'13:00'"
+          :time="'17:00'"
           :title="'We party'"
           :subTitle="'Начало банкета'"
           :text="'Время вкусной еды, танцев и развлечений'"
@@ -51,9 +51,9 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
           :imgUrlTwo="'/green_heart-min.svg'"
         />
         <ScheduleDescriptionRight
-          :time="'11:30'"
+          :time="'16:00'"
           :title="'We do'"
-          :subTitle="'Церемония бракосочетания'"
+          :subTitle="'Выездная регистрация'"
           :text="'На всякий случай приготовьте носовые платочки для трогательного момента'"
         />
         <GlassAnimation
@@ -62,7 +62,7 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
           :imgUrlTwo="'/glass.svg'"
         />
         <ScheduleDescriptionRight
-          :time="'18:00'"
+          :time="'21:00'"
           :title="'We sweet'"
           :subTitle="'Свадебный торт'"
           :text="'Сладкая традиция которую мы не смогли обойти стороной'"

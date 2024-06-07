@@ -23,7 +23,7 @@ let num = [
       </h2>
 
       <div class="calendar__box">
-        <div class="calendar__box-title">October</div>
+        <div class="calendar__box-title">August</div>
         <div class="calendar__box-item">
           <div class="grid__item"></div>
 

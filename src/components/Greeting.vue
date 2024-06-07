@@ -12,11 +12,7 @@
     </div>
     <div class="greeting__position">
       <div class="greeting__left">
-        <img
-          src="https://static.tildacdn.com/tild6566-3333-4137-b336-366564663062/IMG_5896_1.jpg"
-          alt="#"
-          class="greeting__img"
-        />
+        <img src="../../public/Фото-77.jpg" alt="#" class="greeting__img" />
         <div class="greeting__text-block">
           <p class="greeting__text">to the moon and back</p>
         </div>

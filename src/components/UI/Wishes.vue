@@ -12,6 +12,11 @@
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
     >
+      <img
+        class="wishes__img"
+        src="../../../public/bodhai-larusso.gif"
+        alt=""
+      />
       От всего сердца просим вас дарить вместо цветов Вино и сохранить атмосферу
       уютного праздника
     </p>

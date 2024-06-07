@@ -103,7 +103,7 @@ onMounted(async () => {
   <div id="form" class="container">
     <div class="form__container">
       <h1 class="form_title">
-        Пожалуйста, дайте знать о своем присутствии на мероприятии до 15.09
+        Пожалуйста, дайте знать о своем присутствии на мероприятии до 10.08
       </h1>
       <form @submit.prevent="sendForm()" action="submit" class="form">
         <h2 class="guests_name_title">

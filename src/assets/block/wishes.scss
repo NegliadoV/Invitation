@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(/public/three.jpg);
+  background-image: url(/public/Фото-17.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -43,4 +43,10 @@
   font-family: "LainyDay";
   font-size: 150px;
   margin-left: 300px;
+}
+
+.wishes__img {
+  width: 100px;
+  height: 100px;
+  image-rendering: crisp-edges;
 }

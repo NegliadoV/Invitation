@@ -52,7 +52,7 @@
   object-fit: cover;
   overflow: hidden;
   position: relative;
-  background-image: url(/public/One.jpg);
+  background-image: url(/public/Фото-724.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,16 +60,16 @@
 
   @keyframes change {
     0% {
-      background-image: url(/public/One.jpg);
+      background-image: url(/public/Фото-724.jpg);
     }
     20% {
-      background-image: url(/public/two.jpg);
+      background-image: url(/public/Фото-717.jpg);
     }
     40% {
-      background-image: url(/public/three.jpg);
+      background-image: url(/public/Фото-684.jpg);
     }
     80% {
-      background-image: url(/public/four.jpg);
+      background-image: url(/public/Фото-505.jpg);
     }
   }
 }
