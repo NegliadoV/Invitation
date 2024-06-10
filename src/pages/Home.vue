@@ -76,5 +76,5 @@ watch(scroll, () => {});
   <Form />
   <Footer />
 
-  <router-view></router-view>
+  <router-view><router-link to="/guests">asdasd</router-link></router-view>
 </template>
