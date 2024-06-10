@@ -42,7 +42,7 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
           :time="'23:00'"
           :title="'The end'"
           :subTitle="'Окончание вечера'"
-          :text="'К сожалению даже такой прекрасный вечер может закончиться'"
+          :text="'К сожалению, даже такой прекрасный вечер может закончиться'"
         />
       </div>
       <div class="schedule__content-right">
@@ -65,7 +65,7 @@ import HomeAnimation from "./Animation/HomeAnimation.vue";
           :time="'21:00'"
           :title="'We sweet'"
           :subTitle="'Свадебный торт'"
-          :text="'Сладкая традиция которую мы не смогли обойти стороной'"
+          :text="' Сладкая традиция, которую мы не смогли обойти стороной'"
         />
         <HomeAnimation
           :imgUrlOne="'/heart_mini.svg'"

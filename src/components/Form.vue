@@ -103,7 +103,7 @@ onMounted(async () => {
   <div id="form" class="container">
     <div class="form__container">
       <h1 class="form_title">
-        Пожалуйста, дайте знать о своем присутствии на мероприятии до 10.08
+        Пожалуйста, дайте знать о своем присутствии на мероприятии до 10.07
       </h1>
       <form @submit.prevent="sendForm()" action="submit" class="form">
         <h2 class="guests_name_title">
@@ -155,7 +155,7 @@ onMounted(async () => {
               inputText.length < 3 ||
               selectRadio.length < 1 ||
               (selectCheckbox.length < 1 && !selectRadio.boolean === false)
-                ? 'Что-бы отправить'
+                ? 'Чтобы отправить'
                 : 'Отправить'
             "
             :disabled="

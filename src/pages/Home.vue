@@ -72,8 +72,8 @@ watch(scroll, () => {});
   <Schedule />
   <Banner />
   <Dresscode />
-  <Form />
   <Wishes />
+  <Form />
   <Footer />
 
   <router-view></router-view>
