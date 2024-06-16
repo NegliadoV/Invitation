@@ -1,5 +1,6 @@
 <script setup>
-import { inject, onMounted, ref } from "vue";
+import InputText from "./UI/InputText.vue";
+import { onMounted, ref } from "vue";
 
 import { gsap } from "gsap";
 
@@ -14,8 +15,6 @@ onMounted(() => {
     ease: "elastic.in(1,0.3)",
   });
 });
-
-const scroll = inject("scroll");
 
 defineProps({
   text: String,
@@ -32,21 +31,6 @@ defineProps({
       <div class="hero__caption">
         <h1>{{ text }}</h1>
       </div>
-      <!-- <div ref="background" class="hero__animation">
-        <div
-          class="animation__bg"
-          :style="
-            'width:' +
-            (scroll + 200) +
-            'px' +
-            ';' +
-            'height:' +
-            (scroll + 200) +
-            'px'
-          "
-          v-show="scroll <= 700"
-        ></div>
-      </div> -->
     </div>
   </div>
 </template>

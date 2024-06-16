@@ -109,6 +109,7 @@ onMounted(async () => {
         <h2 class="guests_name_title">
           Ваше имя (Укажите имена гостей и возраст детей)
         </h2>
+        о ссылке в vue rou
         <InputText
           v-model:value="v$.inputText.$model"
           :placeholder="'Мария и андрей, сын Степан 8 лет'"

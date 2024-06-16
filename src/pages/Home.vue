@@ -12,6 +12,7 @@ import Dresscode from "../components/Dresscode.vue";
 import Form from "../components/Form.vue";
 import Wishes from "../components/UI/Wishes.vue";
 import Footer from "../components/Footer.vue";
+import ModalWindow from "../components/UI/ModalWindow.vue";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -64,6 +65,7 @@ watch(scroll, () => {});
       <Navigation />
     </div>
   </header>
+  <ModalWindow />
   <Hero :text="'Она сказала да!'" :imgUrl="'/1.jpg'" />
   <Greeting />
   <Calendar />
@@ -76,5 +78,5 @@ watch(scroll, () => {});
   <Form />
   <Footer />
 
-  <router-view><router-link to="/guests">asdasd</router-link></router-view>
+  <router-view></router-view>
 </template>

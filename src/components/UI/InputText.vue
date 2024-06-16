@@ -17,13 +17,17 @@ defineProps({
     type: String,
     default: "",
   },
+  type: {
+    type: String,
+    default: "text",
+  },
 });
 </script>
 
 <template>
   <input
     @input="$emit('update:value', $event.target.value)"
-    type="input"
+    :type="type"
     :placeholder="placeholder"
     class="form__input"
   />
