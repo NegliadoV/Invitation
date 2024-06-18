@@ -56,12 +56,12 @@ setInterval(onCountDown, 1000);
 
 <template>
   <div class="countdown">
-    <div class="countdown__background"></div>
     <div class="countdown__timer">
       <CountDownItem :count="days" :unit-of-time="unitDays" />
       <CountDownItem :count="hours" :unit-of-time="unitHours" />
       <CountDownItem :count="minutes" :unit-of-time="unitMinutes" />
       <CountDownItem :count="seconds" :unit-of-time="unitSeconds" />
     </div>
+    <div class="countdown__background"></div>
   </div>
 </template>

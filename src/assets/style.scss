@@ -10,7 +10,8 @@ html {
 body {
   z-index: 1000;
   background-color: $beige;
-
+  position: relative;
+  z-index: 1000;
   font-family: "Cormorant", Arial, Helvetica, sans-serif;
 }
 
