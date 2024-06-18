@@ -644,4 +644,10 @@
   .countdown {
     background-position: center;
   }
+
+  .countdown__background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
 }
