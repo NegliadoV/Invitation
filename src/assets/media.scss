@@ -341,10 +341,14 @@
 @media (max-width: 480px) {
   .hero__img {
     min-height: 0vh;
-    position: fixed;
+
     background-attachment: fixed;
     background-size: 190% 100%;
     background-position: top center;
+    -webkit-background-attachment: !important;
+    -moz-background-attachment: !important;
+    -o-background-attachment: !important;
+    background-attachment: !important;
   }
 
   h1 {
