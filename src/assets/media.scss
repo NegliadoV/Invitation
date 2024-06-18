@@ -643,9 +643,8 @@
 
   .countdown {
     background-position: center;
-    background-size: cover;
-  }
-
-  .countdown__background {
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+    background-position-x: 50%;
   }
 }
