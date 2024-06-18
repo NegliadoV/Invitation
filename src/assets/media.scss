@@ -340,17 +340,10 @@
 
 @media (max-width: 480px) {
   .hero__img {
-    // min-height: 0vh;
     width: 100%;
     height: 100%;
-    // background-size: 190% 100%;
+
     background-position: top center;
-    // -webkit-background-attachment: fixed !important;
-    // -webkit-background-size: 190% 100% !important;
-    // -webkit-background-position: top center !important;
-    // background-image: fixed !important;
-    // width: 100%;
-    // height: 100%;
   }
 
   h1 {
