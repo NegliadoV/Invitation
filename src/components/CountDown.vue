@@ -2,7 +2,7 @@
 import CountDownItem from "./UI/CountDownItem.vue";
 import { ref } from "vue";
 
-const deadline = new Date(2024, 7, 25);
+const deadline = new Date(2024, 7, 24);
 
 const days = ref();
 const hours = ref();
