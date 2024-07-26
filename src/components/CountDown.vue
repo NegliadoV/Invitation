@@ -27,8 +27,8 @@ const onCountDown = () => {
   if (remains <= 0) {
     clearInterval(remains);
   }
-  days.value = Math.floor((remains / (1000 * 60 * 60 * 30)) % 24);
-  hours.value = Math.floor((remains / (1000 * 60 * 60)) % 24);
+  days.value = remains 
+hours.value = Math.floor((remains / (1000 * 60 * 60)) % 24);
   minutes.value = Math.floor((remains / (1000 * 60)) % 60);
   seconds.value = Math.floor((remains / 1000) % 60);
 
