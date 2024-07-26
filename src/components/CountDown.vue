@@ -2,7 +2,7 @@
 import CountDownItem from "./UI/CountDownItem.vue";
 import { ref } from "vue";
 
-const deadline = new Date(2024, 08, 24);
+const deadline = new Date(2024, 8, 24);
 
 const days = ref();
 const hours = ref();
@@ -27,7 +27,7 @@ const onCountDown = () => {
   if (remains <= 0) {
     clearInterval(remains);
   }
-  days.value = Math.floor((remains / 1000) % 365) 
+  days.value = Math.floor((remains / 1000 * 30) % 365) 
 hours.value = Math.floor((remains / (1000 * 60 * 60)) % 24);
   minutes.value = Math.floor((remains / (1000 * 60)) % 60);
   seconds.value = Math.floor((remains / 1000) % 60);
